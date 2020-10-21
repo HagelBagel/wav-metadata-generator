@@ -41,7 +41,7 @@ outputWriter.writerow(['FileName', 'Description', 'IKEY', 'BitsPerSample', 'Samp
 print('Input source CSV file (file name with extension):')
 sourceCSV = input()
 
-metadata = open(path + '\\' +  sourceCSV) # build the correct full path
+metadata = open(path + '\\' +  sourceCSV) # build the correct full path.
 metaReader = csv.reader(metadata) #save it as an object
 metaList = list(metaReader) # turn it into a list
 metaList = metaList[1:] # leave out the first row of the list

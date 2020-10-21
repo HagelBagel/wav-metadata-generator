@@ -29,4 +29,4 @@ Do a test run and see what comes out. Then modify to your liking.
 Note that this version is designed to take files named according to the [Universal Category System](https://www.universalcategorysystem.com) (UCS) and use the file names as basis for any metadata generated. If you do not have UCS-compliant files, you may need to modify `filesToCSV3.py`.
 
 ## Dependecies:
-Nothing but standard core Python 3.8 modules.
+Nothing but standard core Python 3.8 modules...

@@ -130,7 +130,7 @@ for file in glob.glob(os.path.join(path, '*.wav')):     # On the files that matc
     # split by underscore
     name_elements = keywords.split('_')
     # then convert [1] back to string & save to keywords
-    keywords = str(name_elements[1])
+    keywords = str(name_elements[1]) 
     
     # Sanitize keywords
     keywords = kwdSanitize(keywords)
