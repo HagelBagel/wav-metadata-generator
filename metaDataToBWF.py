@@ -68,5 +68,5 @@ print('Current path is: ' + path)
 print('Done. Type "o" + ENTER to open CSV or type any key to exit.')
 endCommand = input()
 if endCommand == 'o':
-    os.startfile(os.path.normpath(path) + '\\' + outFileName) # using normpath to avoid escaping backslashes in the path name
+    os.startfile(os.path.normpath(path) + '\\' + outFileName) # using normpath to avoid escaping backslashes in the path name.
     

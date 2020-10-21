@@ -135,7 +135,7 @@ for file in glob.glob(os.path.join(path, '*.wav')):     # On the files that matc
     # Sanitize keywords
     keywords = kwdSanitize(keywords)
     
-    if loopRegex.search(keywords):              # mark if file is looping (checks if the word "loop" is in the file name)
+    if loopRegex.search(keywords):              # mark if file is looping (checks if the word "loop" is in the file name).
         looping = 'Y'        
     else:
         looping = 'N'    
